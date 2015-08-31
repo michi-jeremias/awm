@@ -1,6 +1,6 @@
-# hexView
+library("hexView") # import eviews data
+library("Vars") # var, vec estimation
 
-library("hexView")
 readEViews("data//dats_12.wf1")
 colnames(dats12)
 
